@@ -1,0 +1,10 @@
+from tkinter import *
+top=Tk()
+top.title("Hello World")
+B1 = Button(top, text ="OK")
+L1=Label(top, text="Enter name", fg='blue')
+T1=Entry(top, text="This is Entry Widget", fg='red', bd=3)
+L1.pack(fill=X, padx=10)
+T1.pack(fill=X, padx=10)
+B1.pack(fill=X, padx=10)
+top.mainloop()
